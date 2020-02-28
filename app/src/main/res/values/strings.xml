@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Irrigation</string>
+    <string name="appbar_scrolling_view_behavior">true</string>
+    <string name="not_before_time">Not before time</string>
+    <string name="not_after_time">Not after time</string>
+    <string name="language">Language</string>
+    <string name="number_of_devices_in_chain"># of devices in chain</string>
+    <string name="pump_capacity">Pump capacity</string>
+    <string name="mode">Mode</string>
+
+    <string-array name="language_array">
+        <item>English</item>
+        <item>Chinese</item>
+
+    </string-array>
+
+    <string-array name="mode_array">
+        <item>Expert</item>
+        <item>Detailed</item>
+
+    </string-array>
+
+
+    <string-array name="debug_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="debug_type">
+        <item>hotspot</item>
+        <item>server</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_engineering">EngineeringActivity</string>
+
+
+</resources>

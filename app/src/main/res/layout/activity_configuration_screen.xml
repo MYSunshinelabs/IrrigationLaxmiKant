@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ve.irrigation.irrigation.ConfigurationScreenActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/background" />
+
+    <RelativeLayout
+        android:id="@+id/relative_tool"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/topbgcolor"
+        android:padding="@dimen/padding_text">
+
+
+        <com.ve.irrigation.customview.CustomTextViewLightBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Configuration Page"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/headertextcolor"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relative_tool"
+        android:layout_marginTop="@dimen/margin_switch"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_text">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+
+            <com.ve.irrigation.customview.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/not_before_time"
+                android:textSize="18sp" />
+
+            <com.ve.irrigation.customview.CustomTextView
+                android:id="@+id/not_before_time"
+                android:layout_width="100dp"
+                android:layout_height="@dimen/edittext_new_height"
+                android:layout_marginLeft="@dimen/margin_layout"
+                android:background="@drawable/configurationtext_bg_layout"
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:text="5AM"
+
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_layout"
+            android:gravity="center_vertical">
+
+
+            <com.ve.irrigation.customview.CustomTextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="@string/not_after_time" />
+
+            <com.ve.irrigation.customview.CustomTextView
+                android:id="@+id/not_after_time"
+                android:layout_width="100dp"
+                android:layout_height="@dimen/edittext_new_height"
+                android:layout_marginLeft="@dimen/margin_layout"
+                android:background="@drawable/configurationtext_bg_layout"
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:text="5PM" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_layout"
+            android:gravity="center_vertical">
+
+
+            <com.ve.irrigation.customview.CustomTextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="@string/pump_capacity" />
+
+
+            <com.ve.irrigation.customview.CustomEditTextView
+                android:id="@+id/edittext_pumpcapacity"
+                android:layout_width="100dp"
+                android:layout_height="@dimen/edittext_new_height"
+                android:layout_marginLeft="@dimen/margin_layout"
+                android:background="@drawable/configurationtext_bg_layout"
+                android:gravity="center"
+                android:inputType="number"
+                android:padding="5dp"
+                android:paddingBottom="2dp"
+                android:paddingLeft="@dimen/padding_text"
+                android:paddingRight="@dimen/padding_text"
+                android:paddingTop="2dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_layout"
+            android:gravity="center_vertical">
+
+
+            <com.ve.irrigation.customview.CustomTextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="@string/number_of_devices_in_chain" />
+
+
+            <com.ve.irrigation.customview.CustomEditTextView
+
+                android:id="@+id/edittext_numberofdevices"
+                android:layout_width="100dp"
+                android:layout_height="@dimen/edittext_new_height"
+                android:layout_marginLeft="@dimen/margin_layout"
+                android:background="@drawable/configurationtext_bg_layout"
+                android:gravity="center"
+                android:inputType="number"
+
+
+                android:padding="5dp"
+                android:paddingBottom="2dp"
+                android:paddingLeft="@dimen/padding_text"
+                android:paddingRight="@dimen/padding_text"
+                android:paddingTop="2dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_layout"
+            android:gravity="center_vertical">
+
+
+            <com.ve.irrigation.customview.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mode" />
+
+
+            <Spinner
+                android:popupBackground="@drawable/configurationtext_bg_layout"
+                android:id="@+id/spinner_mode"
+                android:layout_width="100dp"
+                android:layout_height="@dimen/edittext_new_height"
+                android:layout_marginLeft="@dimen/margin_layout"
+                android:background="@drawable/spinner_bg"
+                android:overlapAnchor="true" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_layout"
+            android:gravity="center_vertical">
+
+
+            <com.ve.irrigation.customview.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/language" />
+
+
+            <Spinner
+                android:popupBackground="@drawable/configurationtext_bg_layout"
+                android:id="@+id/spinner_language"
+                android:layout_width="100dp"
+                android:layout_height="@dimen/edittext_new_height"
+                android:layout_marginLeft="@dimen/margin_layout"
+                android:background="@drawable/spinner_bg" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_switch"
+            android:gravity="center_horizontal">
+
+
+            <com.ve.irrigation.customview.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mianyang Sunshine Lab" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center">
+
+
+            <com.ve.irrigation.customview.CustomButtonView
+                android:id="@+id/btn_save"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:background="@drawable/configurationtext_bg_layout"
+                android:text="Make permanent" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/margin_top"
+        android:layout_marginRight="@dimen/margin_top"
+        android:src="@mipmap/mode_off" />
+
+
+</RelativeLayout>

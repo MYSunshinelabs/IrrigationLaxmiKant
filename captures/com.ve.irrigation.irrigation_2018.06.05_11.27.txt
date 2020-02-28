@@ -1,0 +1,127 @@
+TASK com.ve.irrigation.irrigation id=15981 userId=0
+  ACTIVITY com.ve.irrigation.irrigation/.MainActivity 14b42e9 pid=31909
+    Local Activity cb2ce2c State:
+      mResumed=true mStopped=false mFinished=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 ?mcc?mnc [en_IN,ar_XB,de_DE] ldltr sw411dp w411dp h659dp 420dpi nrml port finger -keyb/v/h -nav/h appBounds=Rect(0, 0 - 1080, 1794) s.9}
+      mLoadersStarted=true
+      Active Fragments in 7078be3:
+        #0: ReportFragment{f67e9e0 #0 android.arch.lifecycle.LifecycleDispatcher.report_fragment_tag}
+          mFragmentId=#0 mContainerId=#0 mTag=android.arch.lifecycle.LifecycleDispatcher.report_fragment_tag
+          mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+          mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+          mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+          mRetainInstance=false mRetaining=false mUserVisibleHint=true
+          mFragmentManager=FragmentManager{7078be3 in HostCallbacks{bc10499}}
+          mHost=android.app.Activity$HostCallbacks@bc10499
+          Child FragmentManager{7ebc35e in ReportFragment{f67e9e0}}:
+            FragmentManager misc state:
+              mHost=android.app.Activity$HostCallbacks@bc10499
+              mContainer=android.app.Fragment$1@d9d033f
+              mParent=ReportFragment{f67e9e0 #0 android.arch.lifecycle.LifecycleDispatcher.report_fragment_tag}
+              mCurState=5 mStateSaved=false mDestroyed=false
+      Added Fragments:
+        #0: ReportFragment{f67e9e0 #0 android.arch.lifecycle.LifecycleDispatcher.report_fragment_tag}
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@bc10499
+        mContainer=android.app.Activity$HostCallbacks@bc10499
+        mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false      mIsAmbientMode=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=33128240 (110569 ms ago)
+    View Hierarchy:
+      DecorView@8d119b4[MainActivity]
+        android.widget.LinearLayout{2ff549b V.E...... ........ 0,0-1080,1794}
+          android.view.ViewStub{491c40c G.E...... ......I. 0,0-0,0 #1020186 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{be150aa V.E...... ........ 0,63-1080,1794}
+            android.support.v7.widget.FitWindowsLinearLayout{8428795 V.E...... ........ 0,0-1080,1731 #7f0e007d app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{9145155 G.E...... ......I. 0,0-0,0 #7f0e007e app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{1d9eb4c V.E...... ........ 0,0-1080,1731 #1020002 android:id/content}
+                android.widget.RelativeLayout{45c3f7f V.E...... ........ 0,0-1080,1731}
+                  android.support.v7.widget.AppCompatImageView{7ed489e V.ED..... ........ 0,0-1080,1731}
+                  android.widget.LinearLayout{75bcd76 I.E...... ......ID 0,0-1080,1731 #7f0e00a1 app:id/layout_main}
+                    android.widget.RelativeLayout{7910811 V.E...... ......ID 0,0-1080,183}
+                      android.support.v7.widget.AppCompatImageView{d607038 VFED..C.. ......ID 26,26-84,82 #7f0e00a2 app:id/img_exit}
+                      com.ve.irrigation.customview.CustomTextViewLightBold{9f49f77 V.ED..... ......ID 398,26-682,99 #7f0e00a3 app:id/customTextViewLightBold}
+                      com.ve.irrigation.customview.CustomTextViewLight{2c857e4 V.ED..... ......ID 806,26-1054,75 #7f0e00a4 app:id/textView_connectedhotspotname}
+                      com.ve.irrigation.customview.CustomTextViewLight{86d144d V.ED..... ......ID 1054,101-1054,150 #7f0e00a5 app:id/textview_connectedhotspottime}
+                      com.ve.irrigation.customview.CustomTextViewLight{32f4b02 V.ED..... ......ID 26,108-26,157 #7f0e00a6 app:id/textview_heartbeatcount}
+                    android.support.v7.widget.RecyclerView{989bc13 VFED..... ......ID 0,183-1080,183 #7f0e00a7 app:id/recyclerview_status}
+                    android.widget.LinearLayout{f4a066f I.E...... ......ID 0,183-1080,1362 #7f0e00a8 app:id/ll_mainview}
+                      android.widget.LinearLayout{cb154e V.E...... ......ID 0,105-1080,272 #7f0e00a9 app:id/fragment_detail}
+                        android.widget.LinearLayout{283a849 V.E...... ......ID 0,0-540,167}
+                          com.ve.irrigation.customview.CustomTextViewBold{a50e50 V.ED..... ......ID 112,0-428,72}
+                          com.ve.irrigation.customview.CustomTextView{954bf7c VFED..C.. ......ID 112,98-427,167 #7f0e00df app:id/text_detail_actual}
+                          android.widget.NumberPicker{b2cb76a G.ED..... ......I. 0,0-0,0 #7f0e00e0 app:id/np_detailed_actual}
+                            android.widget.NumberPicker$CustomEditText{7e8945b VFED..CL. ......ID 0,0-0,0 #1020330 android:id/numberpicker_input}
+                        android.widget.LinearLayout{747385a V.E...... ......ID 540,0-1080,167}
+                          com.ve.irrigation.customview.CustomTextViewBold{1558005 V.ED..... ......ID 110,0-429,72}
+                          com.ve.irrigation.customview.CustomTextView{c1a9a8b VFED..C.. ......ID 112,98-427,167 #7f0e00e1 app:id/text_detail_target}
+                          android.widget.NumberPicker{49d14f8 G.ED..... ......I. 0,0-0,0 #7f0e00e2 app:id/np_detailed_target}
+                            android.widget.NumberPicker$CustomEditText{315add1 VFED..CL. ......ID 0,0-0,0 #1020330 android:id/numberpicker_input}
+                        android.support.v7.widget.AppCompatButton{bd6e036 GFED..C.. ......ID 0,0-0,0 #7f0e00e3 app:id/btn_detailed_startstop}
+                      android.widget.LinearLayout{165467 V.E...... ......ID 0,377-1080,1179}
+                        android.widget.LinearLayout{5308026 V.E...... ......ID 26,0-1054,308}
+                          android.widget.LinearLayout{db31781 V.E...... ......ID 0,26-1028,85}
+                            com.ve.irrigation.customview.CustomTextView{4ec5768 V.ED..... ......ID 53,0-228,59 #7f0e00aa app:id/textview_realactivity_pressure}
+                            com.ve.irrigation.customview.CustomTextView{5e38214 V.ED..... ......ID 228,0-975,59 #7f0e00ab app:id/textview_realactivity_flow}
+                          android.widget.LinearLayout{31478b2 V.E...... ......ID 0,111-1028,170}
+                            com.ve.irrigation.customview.CustomTextView{2f8aabd V.ED..... ......ID 53,0-213,59 #7f0e00ac app:id/textview_realactivity_realvol}
+                            com.ve.irrigation.customview.CustomTextView{829d003 V.ED..... ......ID 213,0-975,59 #7f0e00ad app:id/textview_realactivity_totalvol}
+                          android.widget.LinearLayout{c0a35b9 V.E...... ......ID 0,196-1028,255}
+                            com.ve.irrigation.customview.CustomTextView{c80ab80 V.ED..... ......ID 53,0-170,59 #7f0e00ae app:id/textview_realactivity_pump}
+                            com.ve.irrigation.customview.CustomTextView{2cd6dfe V.ED..... ......ID 170,0-975,59 #7f0e00af app:id/textview_realactivity_valve}
+                        android.widget.RelativeLayout{504ffac V.E...... ......ID 53,361-1027,466}
+                          com.ve.irrigation.customview.CustomTextView{96f695f V.ED..... ......ID 26,26-302,79}
+                          android.support.v7.widget.AppCompatImageView{40f7475 VFED..C.. ......ID 834,26-948,79 #7f0e00b0 app:id/img_remote_mode}
+                        android.widget.LinearLayout{64b3c7b V.E...... ......ID 26,545-1080,802}
+                          android.support.v7.widget.AppCompatImageView{78e6c0a V.ED..... ......ID 209,86-293,170 #7f0e00b1 app:id/img_led}
+                          android.widget.LinearLayout{c986a98 VFE...C.. ......ID 346,0-477,257 #7f0e00b2 app:id/layout_blueswitch}
+                            android.support.v7.widget.AppCompatImageView{6efe2f1 V.ED..... ......ID 26,26-105,231 #7f0e00b3 app:id/img_blueswitch}
+                          android.widget.LinearLayout{2af3ed6 VFE...C.. ......ID 530,0-661,257 #7f0e00b4 app:id/layout_greenwitch}
+                            android.support.v7.widget.AppCompatImageView{9472557 V.ED..... ......ID 26,26-105,231 #7f0e00b5 app:id/img_greenwitch}
+                          android.widget.LinearLayout{8f59844 VFE...C.. ......ID 714,0-845,257 #7f0e00b6 app:id/layout_redswitch}
+                            android.support.v7.widget.AppCompatImageView{d8ebd2d V.ED..... ......ID 26,26-105,231 #7f0e00b7 app:id/img_redswitch}
+                    com.ve.irrigation.customview.CustomTextViewLight{1387262 V.ED..... ......ID 0,1362-1080,1731 #7f0e00b8 app:id/textview_notificationactivity}
+                  android.widget.ProgressBar{1aebff3 V.ED..... ........ 477,802-603,928 #7f0e00b9 app:id/progressbar}
+                  com.ve.irrigation.customview.CustomTextView{ed5f4b0 V.ED..... ........ 0,928-1080,987 #7f0e00ba app:id/tv_progress}
+        android.view.View{4a30687 V.ED..... ........ 0,1794-1080,1920 #1020030 android:id/navigationBarBackground}
+        android.view.View{c14f9dd V.ED..... ........ 0,0-1080,63 #102002f android:id/statusBarBackground}
+    Looper (main, tid 2) {2921b37}
+      (Total messages: 0, polling=false, quitting=false)
+    Local FragmentActivity cb2ce2c State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    Active Fragments in a88a4:
+      #0: DetailedModeFragment{cf6560d #0 id=0x7f0e00a9}
+        mFragmentId=#7f0e00a9 mContainerId=#7f0e00a8 mTag=null
+        mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+        mAdded=true mRemoving=false mFromLayout=true mInLayout=true
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+        mRetainInstance=false mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{a88a4 in HostCallbacks{e28c9c2}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@e28c9c2
+        mView=android.widget.LinearLayout{cb154e V.E...... ......ID 0,105-1080,272 #7f0e00a9 app:id/fragment_detail}
+        mInnerView=android.widget.LinearLayout{cb154e V.E...... ......ID 0,105-1080,272 #7f0e00a9 app:id/fragment_detail}
+        Child FragmentManager{2e333d3 in DetailedModeFragment{cf6560d}}:
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@e28c9c2
+            mContainer=android.support.v4.app.Fragment$2@cb98b10
+            mParent=DetailedModeFragment{cf6560d #0 id=0x7f0e00a9}
+            mCurState=5 mStateSaved=false mDestroyed=false
+    Added Fragments:
+      #0: DetailedModeFragment{cf6560d #0 id=0x7f0e00a9}
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@e28c9c2
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@e28c9c2
+      mCurState=5 mStateSaved=false mDestroyed=false

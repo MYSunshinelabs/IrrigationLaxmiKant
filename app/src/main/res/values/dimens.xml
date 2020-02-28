@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_layout">10dp</dimen>
+    <dimen name="padding_text">10dp</dimen>
+    <dimen name="edittext_height">40dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fragment_margin">40dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="margin_switch">20dp</dimen>
+    <dimen name="edittext_new_height">30dp</dimen>
+    <dimen name="customtextsize">18sp</dimen>
+</resources>
